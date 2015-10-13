@@ -1,0 +1,2 @@
+# eazy-project-management
+Eazy Project Management is a WordPress plugin that creates a custom post type for projects with a custom taxonomy for clients. The plugin also creates a custom user role for clients. When a user is added with the role client, it adds the users display name to the taxonomy clients. You can then create a custom post type of project and use the taxonomy term client to keep the content of the project protected from users who aren\'t admin or logged in with the display name matching the taxonomy term. 
