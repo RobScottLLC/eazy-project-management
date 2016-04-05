@@ -3,7 +3,7 @@
  * Plugin Name:       Eazy Project Management
  * Plugin URI:        http://robjscott.com/wordpress/eazy-project-management
  * Description:       Creates custom post type for projects and custom taxonomy for clients. This allows password protected access to projects based on client name taxonomy term and user role.
- * Version:           1.0.0
+ * Version:           1.1
  * Author:            Rob Scott, LLC
  * Author URI:        http://robjscott.com
  * Text Domain:       

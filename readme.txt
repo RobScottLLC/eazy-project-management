@@ -1,8 +1,8 @@
 === Eazy Project Management ===
 Contributors: r0bsc0tt
-Tags: project management, password protected content
+Tags: project management, password protected content, upload, images, photographs, photography, photographer, client, customer, password, password-protected, wedding, gallery, zip, zipping
 Requires at least: 4.3.1
-Tested up to: 4.3.1
+Tested up to: 4.5
 Stable tag: trunk
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -23,7 +23,7 @@ Eazy Project Management is a WordPress plugin that creates a custom post type fo
 
 = How can I customize the layout? =
 
-The plugin uses the default single.php and taxonomy-ezproject_clients.php to display a single project and a client archive. Add single-ezproject.php to your theme for a single project. Add taxonomy-ezproject_clients.php to your theme for the client archive that shows all projects for a client. 
+The plugin uses the default single.php and taxonomy.php or archive.php to display a single project and a client archive. Add single-ezproject.php to your theme for a single project. Add taxonomy-ezproject_clients.php to your theme for the client archive that shows all projects for a client. 
 
 = How does this plugin work? =
 
@@ -35,5 +35,12 @@ The plugin creates a custom post type called Projects with a taxonomy or Clients
 3. You can add a project just like you would a post. It probably uses your themes\' single.php template to display the content. 
 4. All projects.
 5. Single Project being displayed to admin.
-6. Single Project being displayed to logged in user with name matching selected client. 
-5. Single Project not being displayed to everyone else. 
+6. Single Project being displayed to logged in user with name matching selected client.
+7. Single Project not being displayed to everyone else. 
+
+== Changelog ==
+= 1.1 =
+* Update rjs_eazy_client_content functions if/else statement to include else block for all content that is not an ezproject post type. This should provide more control for the content filter.
+
+= 1.0 =
+* Initial version of plugin.

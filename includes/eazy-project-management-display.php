@@ -2,9 +2,7 @@
 
 function rjs_eazy_client_content($content) {
 	if( is_singular('ezproject') && is_main_query() ) {
-
 		$content;	
-
 		global $post;
 		$current_user = wp_get_current_user();
 	    $current_term = get_the_terms($post->id, 'ezproject_clients');
@@ -22,6 +20,10 @@ function rjs_eazy_client_content($content) {
 			echo "<h3 class='rjs-login-title'>Please login to view your project.</h3>";
 			wp_login_form();
 		}
+	}else{
+		$content;	
+		global $post;
+		return $content;
 	}
 }
 add_filter('the_content', 'rjs_eazy_client_content');
