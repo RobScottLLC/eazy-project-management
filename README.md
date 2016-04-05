@@ -26,6 +26,7 @@ Tested up to: 4.3.1
 
 ##Changelog
 = 1.1 =
+
 Update rjs_eazy_client_content functions if/else statement to include else block for all content that is not an ezproject post type. This should provide more control for the content filter.
 
 = 1.0 =  
